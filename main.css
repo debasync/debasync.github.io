@@ -126,12 +126,17 @@ ul.actions li { display: inline-block; margin-right: 10px; }
 
 /* Footer */
 #footer {
-    text-align: center;
-    padding: 2rem;
-    background: #111;
-    color: #888;
-    border-top: 2px solid #f2a900;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background: rgba(0,0,0,0.6); /* semi-transparent background */
+  color: #fff;
+  font-size: 0.8em;
 }
+
 
 /* Icons */
 ul.icons {
@@ -167,3 +172,4 @@ ul.icons li a:hover { color: #fff; transform: scale(1.2); }
         gap: 10px;
     }
 }
+
