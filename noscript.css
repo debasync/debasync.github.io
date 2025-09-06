@@ -1,0 +1,4 @@
+/* Show main content if JS is disabled */
+#main, #header { display: block !important; }
+#main, #header { display: block !important; }
+
