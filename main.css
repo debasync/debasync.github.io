@@ -126,17 +126,12 @@ ul.actions li { display: inline-block; margin-right: 10px; }
 
 /* Footer */
 #footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-  background: rgba(0,0,0,0.6); /* semi-transparent background */
-  color: #fff;
-  font-size: 0.8em;
+    text-align: center;
+    padding: 2rem;
+    background: #111;
+    color: #888;
+    border-top: 2px solid #f2a900;
 }
-
 
 /* Icons */
 ul.icons {
@@ -171,5 +166,49 @@ ul.icons li a:hover { color: #fff; transform: scale(1.2); }
         flex-direction: column;
         gap: 10px;
     }
+}
+/* LinkedIn */
+.icons .linkedin {
+  color: #0A66C2; /* LinkedIn blue */
+}
+
+/* GitHub */
+.icons .github {
+  color: #171515; /* GitHub black */
+}
+
+/* Instagram Gradient */
+.icons .instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Social Icons */
+.icons a {
+  font-size: 32px;   /* bigger size */
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icons a:hover {
+  transform: scale(1.2); /* zoom effect */
+}
+
+/* LinkedIn */
+.icons .linkedin {
+  color: #0A66C2;
+}
+
+/* GitHub */
+.icons .github {
+  color: #171515;
+}
+
+/* Instagram Gradient */
+.icons .instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
